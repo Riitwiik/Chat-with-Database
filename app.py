@@ -19,7 +19,7 @@ radio_opt=["Use SQLite 3 Datbase Student.db"]
 selected_opt=st.sidebar.radio(label="Choose the DB which you want to chat",options=radio_opt)
 
 if radio_opt.index(selected_opt)==0:
-    db_name = "student.db"   # simple input or variable
+    db_name = "student.db"   
     db_uri = f"file:{db_name}"
 
 from dotenv import load_dotenv
