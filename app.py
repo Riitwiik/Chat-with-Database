@@ -50,7 +50,7 @@ agent=create_sql_agent(
     llm=llm,
     toolkit=toolkit,
     verbose=True,
-    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+    agent_type=AgentType.OPENAI_TOOLS,
     prefix=prefix,
 )
 
